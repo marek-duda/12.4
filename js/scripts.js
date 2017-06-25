@@ -14,6 +14,4 @@ function getJoke() {
     xhr.send();
 }
 
-document.body.onload = function() {
-    getJoke();
-}
+getJoke();
